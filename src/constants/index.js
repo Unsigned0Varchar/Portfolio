@@ -119,6 +119,6 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'PassMan- Your personal password manager',
         description: 'Developed a web application that takes input from user and stores the password, link and username,  user can add, update, and delete passwords, it also has the functionality of copying the credentials. The UI has been made illustrative by using animated icons from LordIcons.',
-        link: 'https://github.com/Unsigned0Varchar/PassMan-Your-personal-password-manager',
+        link: 'https://github.com/Unsigned0Varchar/passmanLocal',
     }
 ];
