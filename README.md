@@ -2,7 +2,7 @@
 
 Welcome to my personal developer portfolio! This website showcases my projects, skills, and contact information, built using modern web technologies like **Next.js**, **Tailwind CSS**, and **Framer Motion**.
 
-> 🚀 Designed to reflect my skills as a web developer and startup founder in the making.
+> 🚀 Designed to reflect my skills as a web developer.
 
 ---
 
@@ -11,7 +11,7 @@ Welcome to my personal developer portfolio! This website showcases my projects, 
 - **Next.js 13+ (App Router)**
 - **React 18**
 - **Tailwind CSS**
-- **DaisyUI** (for reusable components)
+- **SchadcnUI** (for reusable components)
 - **Framer Motion** (animations)
 - **TypeScript**
 - **Vercel** (for deployment)
@@ -27,7 +27,7 @@ Welcome to my personal developer portfolio! This website showcases my projects, 
 
 ## 🚀 Live Demo
 
-🌐 [Click here to view the live site](https://your-portfolio-link.vercel.app)
+🌐 [Click here to view the live site](https://portfolio-git-main-unsigned0varchars-projects.vercel.app/)
 
 ---
 

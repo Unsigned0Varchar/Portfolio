@@ -18,6 +18,7 @@ import TsLogo from './skillOne-by-One/TsLogo'
 import VercelLogo from './skillOne-by-One/VercelLogo'
 import Firebase from './skillOne-by-One/Firebase'
 import MySql from './skillOne-by-One/MySql'
+import Shadcn from './skillOne-by-One/Shadcn'
 
 
 
@@ -52,6 +53,7 @@ const Skills = () => {
             <VercelLogo/>
             <Firebase/>
             <MySql/>
+            <Shadcn/>
         </div>
     </motion.div>
 
