@@ -2,7 +2,7 @@
 import React from 'react'
 import { useForm, SubmitHandler } from "react-hook-form";
 
-type Props = {}
+
 
 type Inputs = {
     name: string;
@@ -11,7 +11,7 @@ type Inputs = {
     message: string;
 }
 
-const ContactMe = ({}: Props) => {
+const ContactMe = () => {
     const {
         register,
         handleSubmit,
@@ -29,7 +29,7 @@ const ContactMe = ({}: Props) => {
             <div className='flex flex-col space-y-10'>
                 <h4 className='text-4xl font-semibold text-center'>
                     I have got what you need.{" "}
-                    <span className='decoration-[#F7AB0A]/50 underline'>Let's Talk</span>
+                    <span className='decoration-[#F7AB0A]/50 underline'>Let&apos;s Talk</span>
                 </h4>
 
                 <div className='space-y-10 '>

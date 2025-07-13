@@ -3,9 +3,9 @@ import React from 'react'
 import { motion } from "motion/react"
 import ExpCard from './ExpCard'
 
-type Props = {}
 
-const WorkExperience = (props: Props) => {
+
+const WorkExperience = () => {
   return (
     <motion.div
     initial={{opacity:0}}

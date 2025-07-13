@@ -1,7 +1,7 @@
 "use client"
+
 import React from 'react'
 import { motion } from "motion/react"
-import Skill from './Skill'
 import Apiint from './skillOne-by-One/Apiint'
 import AuthLogo from './skillOne-by-One/AuthLogo'
 import BootstrapLogo from './skillOne-by-One/BootstrapLogo'
@@ -10,7 +10,7 @@ import FlutterLogo from './skillOne-by-One/FlutterLogo'
 import GoogleCloud from './skillOne-by-One/GoogleCloud'
 import HtmlLogo from './skillOne-by-One/HtmlLogo'
 import JsLogo from './skillOne-by-One/JsLogo'
-import Mongo from './skillOne-by-One/mongo'
+import Mongo from './skillOne-by-One/Mongo'
 import NextLogo from './skillOne-by-One/NextLogo'
 import ReactLogo from './skillOne-by-One/ReactLogo'
 import TailwindLogo from './skillOne-by-One/TailwindLogo'
@@ -21,9 +21,9 @@ import MySql from './skillOne-by-One/MySql'
 
 
 
-type Props = {}
 
-const Skills = (props: Props) => {
+
+const Skills = () => {
   return (
     <motion.div 
     initial={{opacity:0}}

@@ -1,5 +1,4 @@
 "use client"
-import react from 'react'
 import { motion } from "motion/react"
 
 type Props = {

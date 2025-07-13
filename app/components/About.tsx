@@ -2,9 +2,9 @@
 import React from 'react'
 import { motion } from "motion/react"
 
-type Props = {}
 
-const About = (props: Props) => {
+
+const About = () => {
   return (
     <motion.div 
     initial={{opacity:0}}
@@ -30,14 +30,14 @@ const About = (props: Props) => {
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span> Background</h4>
             <p className='text-sm'>
-                Hi, I’m Abhikraj — a passionate web developer and a BCA student on a mission to build digital products that create real impact. With a strong foundation in computer applications and hands-on experience building web apps using modern technologies like React, Node.js, and MongoDB, I focus on solving real-world problems through clean, functional, and user-centric design.
+  Hi, I&apos;m Abhikraj — a passionate web developer and a BCA student on a mission to build digital products that create real impact. With a strong foundation in computer applications and hands-on experience building web apps using modern technologies like React, Node.js, and MongoDB, I focus on solving real-world problems through clean, functional, and user-centric design. <br /><br />
 
-I’m currently sharpening my skills while actively working on projects that blend creativity with performance. Beyond web development, I’m also laying the groundwork for my own startup, where I aim to combine innovation with technology to deliver scalable solutions.
+  I&apos;m currently sharpening my skills while actively working on projects that blend creativity with performance. Beyond web development, I&apos;m also laying the groundwork for my own startup, where I aim to combine innovation with technology to deliver scalable solutions. <br /><br />
 
-Whether it’s front-end interfaces or full-stack systems, I love turning ideas into fast, functional, and beautiful products.
+  Whether it&apos;s front-end interfaces or full-stack systems, I love turning ideas into fast, functional, and beautiful products. <br /><br />
 
-Let’s connect and build something amazing together.
-            </p>
+  Let&apos;s connect and build something amazing together.
+</p>
         </div>
     </motion.div>
 

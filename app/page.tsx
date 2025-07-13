@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -7,7 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
 import Link from "next/link";
-
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -39,10 +38,16 @@ export default function Home() {
       </section>
 
       <Link href='#hero'>
-      <footer className="sticky bottom-10 w-full cursor-pointer">
-        <div className="flex items-center justify-center">
-        <img className="h-10 w-10 rounded-full" src="/up.svg" alt="" />
-        </div>
+        <footer className="sticky bottom-10 w-full cursor-pointer">
+          <div className="flex items-center justify-center">
+            <Image
+              src="/up.svg"
+              alt="Up arrow icon"
+              width={40}
+              height={40}
+              className="h-10 w-10 rounded-full"
+            />
+          </div>
         </footer>
       </Link>
     </div>

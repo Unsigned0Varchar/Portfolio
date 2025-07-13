@@ -2,9 +2,9 @@
 import React from 'react'
 import { motion } from "motion/react"
 
-type Props = {}
 
-const Projects = (props: Props) => {
+
+const Projects = () => {
 
     return (
         <motion.div
