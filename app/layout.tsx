@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Toaster } from "react-hot-toast"
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,8 +17,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Abhikraj portfolio",
   description: "A portfolio of Abhikraj developed using NextJS showcasing skills, experience etc.",
-  icons:{
-    icon:'./faviconpic.png'
+  icons: {
+    icon: './faviconpic.png'
   }
 };
 
@@ -31,6 +33,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Toaster position="bottom-right" toastOptions={{ duration: 3000 }} />
+
       </body>
     </html>
   );

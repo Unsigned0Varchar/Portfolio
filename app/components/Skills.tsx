@@ -21,45 +21,44 @@ import MySql from './skillOne-by-One/MySql'
 import Shadcn from './skillOne-by-One/Shadcn'
 import Dart from './skillOne-by-One/Dart'
 
-
-
-
-
 const Skills = () => {
   return (
     <motion.div 
-    initial={{opacity:0}}
-    whileInView={{opacity:1}}
-    transition={{duration:1.5}}
-    className='h-screen flex flex-col relative text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
-        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Skills</h3>
+      initial={{opacity:0}}
+      whileInView={{opacity:1}}
+      transition={{duration:1.5}}
+      className='h-screen flex flex-col relative text-center md:text-left xl:flex-row 
+      max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'
+    >
+      <h3 className='absolute top-20 md:top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl'>
+        Skills
+      </h3>
 
-        <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>Hover over an image to see name of skill</h3>
+      <h3 className='absolute top-32 md:top-36 uppercase tracking-[2px] md:tracking-[3px] text-gray-500 text-xs md:text-sm'>
+        Hover over an image to see name of skill
+      </h3>
 
-        <div className='grid grid-cols-4 gap-5'>
-            
-            <Apiint/>
-            <AuthLogo/>
-            <BootstrapLogo/>
-            <Express/>
-            <FlutterLogo/>
-            <GoogleCloud/>
-            <HtmlLogo/>
-            <JsLogo/>
-            <Mongo/>
-            <NextLogo/>
-            <ReactLogo/>
-            <TailwindLogo/>
-            <TsLogo/>
-            <VercelLogo/>
-            <Firebase/>
-            <MySql/>
-            <Shadcn/>
-            <Dart/>
-        </div>
+      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 mt-20 md:mt-28'>
+        <Apiint/>
+        <AuthLogo/>
+        <BootstrapLogo/>
+        <Express/>
+        <FlutterLogo/>
+        <GoogleCloud/>
+        <HtmlLogo/>
+        <JsLogo/>
+        <Mongo/>
+        <NextLogo/>
+        <ReactLogo/>
+        <TailwindLogo/>
+        <TsLogo/>
+        <VercelLogo/>
+        <Firebase/>
+        <MySql/>
+        <Shadcn/>
+        <Dart/>
+      </div>
     </motion.div>
-
-    
   )
 }
 
