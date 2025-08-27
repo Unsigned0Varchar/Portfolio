@@ -2,9 +2,7 @@
 import React from 'react'
 import { motion } from "motion/react"
 
-type Props = {}
-
-const TripIt = (props: Props) => {
+const TripIt = () => {
   return (
     <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center 
           justify-center p-10 md:p-20 lg:p-28 h-screen"
