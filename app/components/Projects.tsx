@@ -2,6 +2,7 @@
 import React from 'react'
 import { motion } from "motion/react"
 import TripIt from './Projects/TripIt'
+import Prescripto from './Projects/Prescripto'
 
 const Projects = () => {
   return (
@@ -13,7 +14,7 @@ const Projects = () => {
       viewport={{ once: true }}
       className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0"
     >
-      <h3 className="absolute top-25 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl text-center w-full z-20">
         Projects
       </h3>
 
@@ -23,6 +24,7 @@ const Projects = () => {
       >
         {/* Project #1 */}
         <TripIt/>
+        <Prescripto/>
       </div>
       
       <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12"></div>

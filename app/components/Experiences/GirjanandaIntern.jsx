@@ -27,8 +27,8 @@ const GirjanandaIntern = () => {
       </motion.div>
 
       {/* Content */}
-      <div className='px-2 md:px-10 text-center md:text-left'>
-        <h4 className='text-2xl md:text-3xl xl:text-4xl font-light'>
+      <div className='px-2 md:px-10 text-center md:text-left h-96 overflow-y-scroll scrollbar-thin scrollbar-thumb-[#F7AB0A]/80 scrollbar-track-gray-400/20'>
+        <h4 className='text-xl md:text-3xl xl:text-4xl font-light'>
           Girijananda University
         </h4>
         <p className='font-bold text-lg md:text-xl xl:text-2xl mt-1'>
@@ -48,7 +48,7 @@ const GirjanandaIntern = () => {
         </p>
 
         {/* Responsibilities */}
-        <ul className='list-disc space-y-3 ml-5 text-sm md:text-lg text-gray-200'>
+        <ul className='list-disc space-y-3 ml-5 text-sm md:text-lg text-gray-200 text-left'>
           <li>Developed responsive web interfaces using React.js.</li>
           <li>Integrated backend APIs with Express and MySQL.</li>
           <li>Collaborated with UI/UX designers for seamless design implementation.</li>

@@ -31,14 +31,14 @@ const ContactMe = () => {
   }
 
   return (
-    <div className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl px-6 md:px-10 justify-evenly mx-auto items-center">
+    <div className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl px-6 md:px-10 justify-evenly mx-auto items-center pt-20 md:pt-0">
       {/* Section Title */}
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-20 md:top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl">
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-10 w-full">
-        <h4 className="text-2xl md:text-4xl font-semibold text-center">
+      <div className="flex flex-col space-y-6 md:space-y-10 w-full mt-10 md:mt-0">
+        <h4 className="text-xl md:text-4xl font-semibold text-center">
           I have got what you need.{" "}
           <span className="decoration-[#F7AB0A]/50 underline">Let&apos;s Talk</span>
         </h4>

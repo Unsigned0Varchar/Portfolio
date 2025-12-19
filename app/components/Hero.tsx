@@ -28,22 +28,22 @@ const Hero = () => {
 
       <div className="z-20">
         {/* Subtitle */}
-        <h2 className="text-xs sm:text-sm uppercase text-gray-500 pb-2 tracking-[8px] sm:tracking-[15px]">
+        <h2 className="text-xs sm:text-sm uppercase text-gray-500 pb-2 tracking-[4px] sm:tracking-[8px] md:tracking-[15px]">
           Software Engineer
         </h2>
 
         {/* Typewriter Heading */}
-        <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-semibold px-2 sm:px-6 md:px-10">
+        <h1 className="text-xl sm:text-3xl md:text-5xl lg:text-6xl font-semibold px-2 sm:px-6 md:px-10 h-20 sm:h-auto">
           <span className="mr-2 sm:mr-3">{text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
 
         {/* Buttons */}
-        <div className="pt-5 flex flex-wrap justify-center gap-3 sm:gap-5">
-          <Link href="#about"><button className="heroButton">About</button></Link>
-          <Link href="#projects"><button className="heroButton">Projects</button></Link>
-          <Link href="#skills"><button className="heroButton">Skills</button></Link>
-          <Link href="#workexperience"><button className="heroButton">Experience</button></Link>
+        <div className="pt-5 flex flex-wrap justify-center gap-2 sm:gap-5 px-4">
+          <Link href="#about"><button className="heroButton text-[10px] sm:text-xs">About</button></Link>
+          <Link href="#projects"><button className="heroButton text-[10px] sm:text-xs">Projects</button></Link>
+          <Link href="#skills"><button className="heroButton text-[10px] sm:text-xs">Skills</button></Link>
+          <Link href="#workexperience"><button className="heroButton text-[10px] sm:text-xs">Experience</button></Link>
         </div>
       </div>
     </div>

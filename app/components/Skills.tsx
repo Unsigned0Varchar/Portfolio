@@ -34,11 +34,11 @@ const Skills = () => {
         Skills
       </h3>
 
-      <h3 className='absolute top-32 md:top-36 uppercase tracking-[2px] md:tracking-[3px] text-gray-500 text-xs md:text-sm'>
+      <h3 className='absolute top-32 md:top-36 uppercase tracking-[2px] md:tracking-[3px] text-gray-500 text-xs md:text-sm text-center px-4'>
         Hover over an image to see name of skill
       </h3>
 
-      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 mt-20 md:mt-28'>
+      <div className='grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-5 mt-32 md:mt-28 p-4'>
         <Apiint/>
         <AuthLogo/>
         <BootstrapLogo/>
