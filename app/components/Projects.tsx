@@ -2,7 +2,6 @@
 import React from 'react'
 import { motion } from "motion/react"
 import TripIt from './Projects/TripIt'
-import Prescripto from './Projects/Prescripto'
 
 const Projects = () => {
   return (
@@ -24,7 +23,6 @@ const Projects = () => {
       >
         {/* Project #1 */}
         <TripIt/>
-        <Prescripto/>
       </div>
       
       <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12"></div>

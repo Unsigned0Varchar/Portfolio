@@ -2,6 +2,8 @@
 import React from 'react'
 import { motion } from "motion/react"
 import GirjanandaIntern from "./Experiences/GirjanandaIntern"
+import HelloRamp from "./Experiences/HelloRamp"
+import Synagogue from "./Experiences/Synagogue"
 
 const WorkExperience = () => {
   return (
@@ -21,6 +23,8 @@ const WorkExperience = () => {
       <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory 
         scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 mt-10 md:mt-0">
         <GirjanandaIntern />
+        <Synagogue/>
+        <HelloRamp />
       </div>
     </motion.section>
   )

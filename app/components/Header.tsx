@@ -14,7 +14,7 @@ function Header() {
         className="flex flex-row items-center gap-2 sm:gap-3"
       >
         <SocialIcon
-          url="https://www.instagram.com/aaabhik.03/"
+          url="https://www.instagram.com/abhik_.raj/"
           fgColor="gray"
           target="_blank"
           bgColor="transparent"

@@ -6,7 +6,6 @@ import Apiint from './skillOne-by-One/Apiint'
 import AuthLogo from './skillOne-by-One/AuthLogo'
 import BootstrapLogo from './skillOne-by-One/BootstrapLogo'
 import Express from './skillOne-by-One/Exress'
-import FlutterLogo from './skillOne-by-One/FlutterLogo'
 import GoogleCloud from './skillOne-by-One/GoogleCloud'
 import HtmlLogo from './skillOne-by-One/HtmlLogo'
 import JsLogo from './skillOne-by-One/JsLogo'
@@ -19,7 +18,6 @@ import VercelLogo from './skillOne-by-One/VercelLogo'
 import Firebase from './skillOne-by-One/Firebase'
 import MySql from './skillOne-by-One/MySql'
 import Shadcn from './skillOne-by-One/Shadcn'
-import Dart from './skillOne-by-One/Dart'
 
 const Skills = () => {
   return (
@@ -43,7 +41,6 @@ const Skills = () => {
         <AuthLogo/>
         <BootstrapLogo/>
         <Express/>
-        <FlutterLogo/>
         <GoogleCloud/>
         <HtmlLogo/>
         <JsLogo/>
@@ -56,7 +53,6 @@ const Skills = () => {
         <Firebase/>
         <MySql/>
         <Shadcn/>
-        <Dart/>
       </div>
     </motion.div>
   )

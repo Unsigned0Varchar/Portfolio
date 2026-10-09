@@ -19,7 +19,7 @@ const About = () => {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        src='/mee2.jpg'
+        src='/pic2.jpg'
         alt='About Me'
         className='-mb-20 md:mb-0 flex-shrink-0 w-32 h-32 md:w-64 md:h-64 xl:w-[500px] xl:h-[600px] rounded-full md:rounded-lg object-cover mt-10 md:mt-0'
       />
@@ -29,7 +29,7 @@ const About = () => {
           Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span> Background
         </h4>
         <p className='text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed text-justify md:text-left'>
-          Hi, I&apos;m Abhikraj — a passionate web developer and BCA student. I build digital products that create real impact. With hands-on experience in React, Node.js, and MongoDB, I focus on solving real-world problems through clean, functional, and user-centric design. <br /><br />
+          Hi, I&apos;m Abhikraj — a passionate web developer and Online MCA student working at HelloRamp.ai as a QA analyst. I build digital products that create real impact. With hands-on experience in React, Node.js, and MongoDB, I focus on solving real-world problems through clean, functional, and user-centric design. <br /><br />
 
           I&apos;m sharpening my skills while working on projects blending creativity with performance. I am also laying the groundwork for my startup to combine innovation and technology for scalable solutions. <br /><br />
 

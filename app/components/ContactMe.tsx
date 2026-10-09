@@ -74,7 +74,7 @@ const ContactMe = () => {
                 clipRule="evenodd"
               />
             </svg>
-            <p className="text-lg md:text-2xl">Guwahati, Assam, India</p>
+            <p className="text-lg md:text-2xl">Bengaluru, India</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
